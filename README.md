@@ -2,6 +2,8 @@
 
 A simple program to figure out who isn't following you back on instagram
 
+<img width="1244" alt="image" src="https://github.com/user-attachments/assets/c27f6f78-8ee4-42e1-a40d-fafc44ebdd14" />
+
 ## Instructions for use
 
 Note: These instructions are designed to help you along, but _they do not try to hold your hand through every step_. You will probably need to try multiple times, reread to check your interpretation, and review the visual aids over and over again.
