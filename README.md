@@ -1,11 +1,10 @@
 # who-isnt-following-back
-A simple program to figure out who isn't following you back on instagram
 
-Look at `instagram.py` and the images to get an idea of how this works.
+A simple program to figure out who isn't following you back on instagram
 
 ## Instructions for use
 
-Note: These instructions are designed to help you along, but _they do not to hold your hand through every step_. You will probably need to try multiple times, reread to check your interpretation, and review the visual aids over and over again.
+Note: These instructions are designed to help you along, but _they do not try to hold your hand through every step_. You will probably need to try multiple times, reread to check your interpretation, and review the visual aids over and over again.
 
 1. Download and unzip the project files. Click on the green "<> Code" button, then choose "Download ZIP." After the download completes, open Finder, find the downloaded .zip file in your downloads, and open it. This should create a folder called `who-isnt-following-back-main`. Open the folder and make sure you can see all the files, most importantly: `follower-html.txt`, `following-html.txt`, and `instagram.py`.
 
@@ -17,8 +16,13 @@ Note: These instructions are designed to help you along, but _they do not to hol
 
 5. This source code is called HTML. As your mouse hovers over the HTML, the corresponding part of the webpage gets highlighted. [Scroll up in the HTML until you find the `<div` that highlights the list of accounts, but nothing else. Right click this `<div` then choose "Edit as HTML".](https://github.com/mrsharp-milken/who-isnt-following-back/blob/main/get-to-following-4.gif) Select all of the HTML in the text box, and copy it.
 
-6. The HTML you just copied contains the usernames of all the accounts that you follow! However, there's a bunch of other junk in there, so we'll use code to search through it. Paste the HTML into the `following-html.txt` file so we can search it with Python.
+6. The HTML you just copied contains the usernames of all the accounts that you follow! However, there's a bunch of other junk in there, so we'll use code to search through it. [Paste the HTML into the `following-html.txt` file so we can search it with Python](https://github.com/mrsharp-milken/who-isnt-following-back/blob/main/get-to-following-5.gif).
 
 7. Repeat steps 2-6 for the list of accounts that follow you, aka your "followers". Paste the HTML for your followers into the `follower-html.txt` file.
 
-8. stuff
+8. It's time to use Python to search through the HTML! Open the `instagram.py` file with Thonny. Read through the file, it's not very long! In short:
+    - We look at each of the files with HTML, and search for a special pattern in the HTML that will contain usernames.
+    - This gives us the list of people who we follow and the list of people that follow us.
+    - Then, we "subtract" all the people who follow us from the list of people we follow, and we're left with a list of people who don't follow us back.
+
+9. Run the program and check your output to see who doesn't follow you back! It's possible that you get an error, but that's OK! Read through the error, to see if you can understand it, try repeating the steps again, and ask ChatGPT for help too.
