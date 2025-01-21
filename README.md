@@ -2,7 +2,7 @@
 
 A simple program to figure out who isn't following you back on instagram
 
-<img width="1244" alt="image" src="https://github.com/user-attachments/assets/c27f6f78-8ee4-42e1-a40d-fafc44ebdd14" />
+<img width="1241" alt="image" src="https://github.com/user-attachments/assets/55ab2ffe-1cf4-4eb1-88fa-d607ddc79fbd" />
 
 ## Instructions for use
 
