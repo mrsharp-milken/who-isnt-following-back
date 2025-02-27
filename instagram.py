@@ -5,7 +5,7 @@ my_followers = set()
 people_i_follow = set()
 
 # Define the regex pattern to find usernames
-pattern = r'href="/([^/]+)/"'
+pattern = r'href="/([^/]+)/'
 # used to find parts of the text that have usernames ex:
 # href="/taylorswift/"
 # href="/simonebiles/"
